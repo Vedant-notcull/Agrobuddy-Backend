@@ -1,44 +1,118 @@
 [
   {
     "id": 1,
+    "name": "Carrot",
+    "farmers": [
+      { "farmer": "Ramesh Kumar", "price": 40, "location": "Pune" },
+      { "farmer": "Suresh Patil", "price": 42, "location": "Nagpur" },
+      { "farmer": "Anil Sharma", "price": 38, "location": "Mumbai" },
+      { "farmer": "Mahesh Jadhav", "price": 45, "location": "Nashik" },
+      { "farmer": "Rajesh Verma", "price": 41, "location": "Aurangabad" }
+    ],
+    "boxType": "big"
+  },
+  {
+    "id": 2,
+    "name": "Cucumber",
+    "farmers": [
+      { "farmer": "Vikas Yadav", "price": 35, "location": "Lucknow" },
+      { "farmer": "Manoj Gupta", "price": 37, "location": "Kanpur" },
+      { "farmer": "Sanjay Singh", "price": 34, "location": "Varanasi" },
+      { "farmer": "Deepak Chauhan", "price": 39, "location": "Prayagraj" },
+      { "farmer": "Prakash Tiwari", "price": 36, "location": "Noida" }
+    ],
+    "boxType": "big"
+  },
+  {
+    "id": 3,
+    "name": "Brinjal",
+    "farmers": [
+      { "farmer": "Ajay Deshmukh", "price": 28, "location": "Pune" },
+      { "farmer": "Sunil Kale", "price": 30, "location": "Sangli" },
+      { "farmer": "Vinod Pawar", "price": 29, "location": "Kolhapur" },
+      { "farmer": "Amol Patankar", "price": 27, "location": "Satara" },
+      { "farmer": "Sharad Shinde", "price": 31, "location": "Solapur" },
+      { "farmer": "Nikhil Chavan", "price": 32, "location": "Nashik" }
+    ],
+    "boxType": "big"
+  },
+  {
+    "id": 4,
+    "name": "Cauliflower",
+    "farmers": [
+      { "farmer": "Ravi Tripathi", "price": 50, "location": "Lucknow" },
+      { "farmer": "Ganesh Pandey", "price": 52, "location": "Gorakhpur" },
+      { "farmer": "Nitin Awasthi", "price": 49, "location": "Kanpur" },
+      { "farmer": "Dinesh Yadav", "price": 55, "location": "Varanasi" },
+      { "farmer": "Ashok Singh", "price": 53, "location": "Ayodhya" }
+    ],
+    "boxType": "big"
+  },
+  {
+    "id": 5,
+    "name": "Capsicum",
+    "farmers": [
+      { "farmer": "Sagar Naik", "price": 60, "location": "Bengaluru" },
+      { "farmer": "Umesh Reddy", "price": 62, "location": "Mysuru" },
+      { "farmer": "Nilesh Gowda", "price": 58, "location": "Hubballi" },
+      { "farmer": "Rohit Shetty", "price": 65, "location": "Mangaluru" },
+      { "farmer": "Kiran Rao", "price": 61, "location": "Belagavi" },
+      { "farmer": "Pavitra Hegde", "price": 64, "location": "Udupi" }
+    ],
+    "boxType": "big"
+  },
+  {
+    "id": 6,
+    "name": "Potato",
+    "farmers": [
+      { "farmer": "Bharat Singh", "price": 25, "location": "Agra" },
+      { "farmer": "Shankar Yadav", "price": 27, "location": "Mathura" },
+      { "farmer": "Mohan Gupta", "price": 26, "location": "Meerut" },
+      { "farmer": "Arun Kumar", "price": 28, "location": "Ghaziabad" },
+      { "farmer": "Santosh Chauhan", "price": 29, "location": "Noida" }
+    ],
+    "boxType": "big"
+  },
+
+  {
+    "id": 7,
     "name": "Beetroot",
-    "image": "images/beetroot.jpg",
     "farmers": [
       { "farmer": "Ramesh Kumar", "price": 40, "location": "Nashik" },
       { "farmer": "Sunita Patil", "price": 38, "location": "Pune" },
       { "farmer": "Amit Desai", "price": 42, "location": "Nagpur" },
       { "farmer": "Meena Joshi", "price": 39, "location": "Aurangabad" },
       { "farmer": "Vikram Singh", "price": 41, "location": "Indore" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 2,
+    "id": 8,
     "name": "Baby Spinach",
-    "image": "images/baby-spinach.jpg",
     "farmers": [
       { "farmer": "Anjali Verma", "price": 55, "location": "Lucknow" },
       { "farmer": "Ravi Sharma", "price": 52, "location": "Kanpur" },
       { "farmer": "Seema Rathi", "price": 58, "location": "Delhi" },
       { "farmer": "Karan Mehta", "price": 54, "location": "Noida" },
       { "farmer": "Neha Gupta", "price": 56, "location": "Ghaziabad" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 3,
+    "id": 9,
     "name": "Lady Finger",
-    "image": "images/lady-finger.jpg",
     "farmers": [
       { "farmer": "Mukesh Yadav", "price": 35, "location": "Agra" },
       { "farmer": "Pooja Choudhary", "price": 37, "location": "Mathura" },
       { "farmer": "Suresh Singh", "price": 36, "location": "Bareilly" },
       { "farmer": "Rita Sharma", "price": 34, "location": "Meerut" },
       { "farmer": "Rajeev Chauhan", "price": 38, "location": "Aligarh" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 4,
+    "id": 10,
     "name": "Cabbage",
-    "image": "images/cabbage.jpg",
     "farmers": [
       { "farmer": "Deepak Rawat", "price": 28, "location": "Haridwar" },
       { "farmer": "Savita Negi", "price": 30, "location": "Dehradun" },
@@ -46,24 +120,24 @@
       { "farmer": "Manoj Pandey", "price": 27, "location": "Haldwani" },
       { "farmer": "Poonam Singh", "price": 31, "location": "Nainital" },
       { "farmer": "Gopal Nautiyal", "price": 28, "location": "Pauri" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 5,
+    "id": 11,
     "name": "Bitter Gourd",
-    "image": "images/bitter-gourd.jpg",
     "farmers": [
       { "farmer": "Naveen Patel", "price": 45, "location": "Surat" },
       { "farmer": "Geeta Desai", "price": 47, "location": "Vadodara" },
       { "farmer": "Harish Chauhan", "price": 44, "location": "Rajkot" },
       { "farmer": "Shilpa Joshi", "price": 46, "location": "Ahmedabad" },
       { "farmer": "Rohit Parmar", "price": 48, "location": "Bhavnagar" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 6,
+    "id": 12,
     "name": "Tomato",
-    "image": "images/tomato.jpg",
     "farmers": [
       { "farmer": "Vijay Pawar", "price": 32, "location": "Kolhapur" },
       { "farmer": "Kavita Jadhav", "price": 34, "location": "Satara" },
@@ -71,60 +145,60 @@
       { "farmer": "Priya Kulkarni", "price": 31, "location": "Solapur" },
       { "farmer": "Nilesh Deshmukh", "price": 35, "location": "Ratnagiri" },
       { "farmer": "Sneha Pawar", "price": 30, "location": "Sindhudurg" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 7,
+    "id": 13,
     "name": "Organic Spinach",
-    "image": "images/organic-spinach.jpg",
     "farmers": [
       { "farmer": "Rekha Sharma", "price": 65, "location": "Delhi" },
       { "farmer": "Sanjay Kapoor", "price": 68, "location": "Gurgaon" },
       { "farmer": "Manisha Gupta", "price": 66, "location": "Faridabad" },
       { "farmer": "Ashok Bansal", "price": 64, "location": "Noida" },
       { "farmer": "Komal Arora", "price": 67, "location": "Delhi" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 8,
+    "id": 14,
     "name": "Lemon",
-    "image": "images/lemon.jpg",
     "farmers": [
       { "farmer": "Rajesh Patel", "price": 90, "location": "Surat" },
       { "farmer": "Neelam Desai", "price": 88, "location": "Ahmedabad" },
       { "farmer": "Jignesh Shah", "price": 92, "location": "Vadodara" },
       { "farmer": "Rupal Joshi", "price": 91, "location": "Rajkot" },
       { "farmer": "Hitesh Mehta", "price": 89, "location": "Bhavnagar" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 9,
+    "id": 15,
     "name": "Pumpkin",
-    "image": "images/pumpkin.jpg",
     "farmers": [
       { "farmer": "Sandeep Yadav", "price": 25, "location": "Varanasi" },
       { "farmer": "Poonam Tripathi", "price": 27, "location": "Gorakhpur" },
       { "farmer": "Arvind Singh", "price": 26, "location": "Lucknow" },
       { "farmer": "Meera Dubey", "price": 28, "location": "Kanpur" },
-      { "farmer": "Rajiv Shukla", "price": 24, "location": "Allahabad" }
-    ]
+      { "farmer": "Rajiv Shukla", "price": 24, "location": "Prayagraj" }
+    ],
+    "boxType": "small"
   },
   {
-    "id": 10,
+    "id": 16,
     "name": "Raddish",
-    "image": "images/raddish.jpg",
     "farmers": [
       { "farmer": "Prakash Choudhary", "price": 20, "location": "Jaipur" },
       { "farmer": "Sunita Sharma", "price": 22, "location": "Ajmer" },
       { "farmer": "Vivek Meena", "price": 21, "location": "Kota" },
       { "farmer": "Pallavi Rathore", "price": 23, "location": "Udaipur" },
       { "farmer": "Devendra Singh", "price": 19, "location": "Jodhpur" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 11,
+    "id": 17,
     "name": "White Onion",
-    "image": "images/white-onion.jpg",
     "farmers": [
       { "farmer": "Balram Patil", "price": 50, "location": "Nashik" },
       { "farmer": "Kusum Deshmukh", "price": 52, "location": "Shirdi" },
@@ -132,54 +206,55 @@
       { "farmer": "Vaishali Pawar", "price": 49, "location": "Ahmednagar" },
       { "farmer": "Sameer Jadhav", "price": 53, "location": "Solapur" },
       { "farmer": "Geeta More", "price": 54, "location": "Satara" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 12,
+    "id": 18,
     "name": "Bell Peppers",
-    "image": "images/bell-peppers.jpg",
     "farmers": [
-      { "farmer": "Arun Kumar", "price": 70, "location": "Bangalore" },
-      { "farmer": "Sushma Reddy", "price": 72, "location": "Mysore" },
-      { "farmer": "Rajesh Gowda", "price": 74, "location": "Hubli" },
-      { "farmer": "Pavitra Shetty", "price": 71, "location": "Mangalore" },
-      { "farmer": "Manjunath Naik", "price": 73, "location": "Belgaum" }
-    ]
+      { "farmer": "Arun Kumar", "price": 70, "location": "Bengaluru" },
+      { "farmer": "Sushma Reddy", "price": 72, "location": "Mysuru" },
+      { "farmer": "Rajesh Gowda", "price": 74, "location": "Hubballi" },
+      { "farmer": "Pavitra Shetty", "price": 71, "location": "Mangaluru" },
+      { "farmer": "Manjunath Naik", "price": 73, "location": "Belagavi" }
+    ],
+    "boxType": "small"
   },
   {
-    "id": 13,
+    "id": 19,
     "name": "Apple",
-    "image": "images/apple.jpg",
     "farmers": [
       { "farmer": "Arvind Thakur", "price": 150, "location": "Shimla" },
       { "farmer": "Neha Rana", "price": 148, "location": "Manali" },
       { "farmer": "Suresh Negi", "price": 152, "location": "Kullu" },
       { "farmer": "Kiran Chauhan", "price": 147, "location": "Kinnaur" },
       { "farmer": "Vinod Rawat", "price": 149, "location": "Solan" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 14,
+    "id": 20,
     "name": "Banana",
-    "image": "images/banana.jpg",
     "farmers": [
       { "farmer": "Shankar Iyer", "price": 60, "location": "Chennai" },
       { "farmer": "Lakshmi Reddy", "price": 62, "location": "Madurai" },
       { "farmer": "Ravi Menon", "price": 61, "location": "Coimbatore" },
-      { "farmer": "Meena Krishnan", "price": 59, "location": "Trichy" },
+      { "farmer": "Meena Krishnan", "price": 59, "location": "Tiruchirappalli" },
       { "farmer": "Hari Narayan", "price": 63, "location": "Salem" }
-    ]
+    ],
+    "boxType": "small"
   },
   {
-    "id": 15,
+    "id": 21,
     "name": "Orange",
-    "image": "images/orange.jpg",
     "farmers": [
       { "farmer": "Santosh Pawar", "price": 80, "location": "Nagpur" },
       { "farmer": "Anita Deshmukh", "price": 82, "location": "Wardha" },
       { "farmer": "Rahul Kale", "price": 79, "location": "Amravati" },
       { "farmer": "Swati More", "price": 83, "location": "Yavatmal" },
       { "farmer": "Pradeep Jagtap", "price": 81, "location": "Chandrapur" }
-    ]
+    ],
+    "boxType": "small"
   }
 ]
